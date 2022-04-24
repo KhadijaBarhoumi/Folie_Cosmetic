@@ -1,0 +1,112 @@
+* {
+  box-sizing: inherit;
+}
+.navbar {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  transition: box-shadow 0.25s ease 0s;
+}
+.container-fluid {
+  background-color: rgb(143, 53, 143);
+}
+
+.bi {
+  padding: 10px;
+}
+.bi:hover {
+  color: #000;
+}
+.img2 {
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  -webkit-box-align: center;
+  justify-content: space-between;
+}
+.nav-item {
+  font-size: x-large;
+  font-weight: 500;
+}
+.btn {
+  background-color: rgb(138, 15, 52);
+  border: hotpink;
+}
+.btn:hover {
+  background-color: rgb(163, 70, 143);
+  color: rgb(248, 246, 248);
+}
+.div1 {
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.far {
+  margin: 20px;
+  font-size: xx-large;
+}
+.card {
+  margin: 10px;
+}
+.card:hover {
+  background-color: rgb(243, 180, 180);
+}
+.aime {
+  color: rgb(233, 17, 17);
+  font-size: 50px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #eee
+}
+
+.size span {
+    font-size: 11px
+}
+
+.color span {
+    font-size: 11px
+}
+
+.product-deta {
+    margin-right: 70px
+}
+
+.gift-card:focus {
+    box-shadow: none
+}
+
+.pay-button {
+    color: #fff
+}
+
+.pay-button:hover {
+    color: #fff
+}
+
+.pay-button:focus {
+    color: #fff;
+    box-shadow: none
+}
+
+.text-grey {
+    color: #a39f9f
+}
+
+.qty i {
+    font-size: 11px
+}
+.product-line-price {
+  float: left;
+  width: 12%;
+  text-align: right;
+}
